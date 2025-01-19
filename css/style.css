@@ -1,0 +1,185 @@
+/* Reset */
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #34495e;
+    color: white;
+    border-radius: 0 0 50px 50px ;
+    height: 60vh ;
+}
+
+.hero-content{
+
+    margin-top: 50px  ;
+
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-content input {
+
+    border-radius: 50px ;
+    border: none ;
+    padding: 2px 5px ;
+    outline: none;
+
+}
+
+
+/* Game Section */
+#games {
+    padding: 20px;
+    text-align: center;
+    overflow: auto;
+}
+
+.parent_card_game{
+
+    margin:auto ;
+    width: 70% ;
+
+}
+
+.game_h1{
+
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+
+}
+
+
+.game-card{
+
+    float: left;
+    border: none ;
+    border-radius: 10px ;
+    margin: 0px 50px ;
+
+}
+
+.game-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.game-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.game-card  img{
+    width: 200px ;
+    height: 200px ;
+}
+
+/* contact us */
+
+.contact_form{
+
+    background-color: rgb(245, 244, 244) ; 
+    height: 70vh ;
+    padding-top: 20px ;
+    margin-bottom: 10px ;
+
+}
+
+.form_form{
+
+    height: 60% ;
+    width: 20% ;
+    margin:auto ;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    padding-top: 20px ;
+    background-color: rgb(168, 167, 167) ;
+    border: none ;
+    border-radius: 20px ;
+    text-align: center;
+
+}
+
+.btn_form{
+
+    margin-top: 40px ;
+
+}
+
+.input_form{
+
+    width: 80% ;
+    margin-top: 40px ;
+    margin-left: 30px ;
+
+}
+
+.input_margin{
+
+    margin-top: 30px ;
+
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+}
